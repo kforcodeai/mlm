@@ -1,0 +1,40 @@
+/mlartifacts/*
+/predictions/*
+/mlruns/*
+stream.json
+
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+
+# Log files
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.htmlcov/
+nosetests.xml
+coverage.xml
+
+# Environment variables
+.env
+venv/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
