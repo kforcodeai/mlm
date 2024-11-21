@@ -100,8 +100,7 @@ def deploy_model() -> bool:
 def main():
     
     st.title("ML Model Training Dashboard")
-    st.info("Demo Over")
-    
+        
     # Initialize session state
     if 'model_deployed' not in st.session_state:
         st.session_state.model_deployed = False
